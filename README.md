@@ -34,3 +34,9 @@ This is to describe how to use maven tool!
 1. 配置MAVEN_HOME 为 maven的安装路径
 2. 在path中配置添加%MAVEN_HOME%\bin;
 
+### 验证maven是否安装成功
+> 命令行下键入 mvn -v 
+如果打印出 java的版本以及 maven的版本，则说明安装成功！
+
+
+
