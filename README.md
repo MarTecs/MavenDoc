@@ -22,7 +22,10 @@ This is to describe how to use maven tool!
  解压到任意目录(要求目录路径不可以有中文和空格)
 
 ### 目录说明
-1. bin
-2. boot 
-3. config
-4. lib
+1. bin 存放一些可执行的二进制文件
+2. boot 存放引导文件
+3. config 存放配置文件
+4. lib 存放运行所需的jar包
+
+### 配置maven的环境变量
+
