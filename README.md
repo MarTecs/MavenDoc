@@ -18,6 +18,8 @@ This is to describe how to use maven tool!
 
 ## maven安装以及目录说明
 
+> maven运行需要Java环境的支持，所以应该先要安装jdk，然后安装maven
+
 ### 安装
  解压到任意目录(要求目录路径不可以有中文和空格)
 
@@ -28,4 +30,7 @@ This is to describe how to use maven tool!
 4. lib 存放运行所需的jar包
 
 ### 配置maven的环境变量
+
+1. 配置MAVEN_HOME
+2. 在path中配置添加%MAVEN_HOME%\bin;
 
