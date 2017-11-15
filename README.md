@@ -31,6 +31,6 @@ This is to describe how to use maven tool!
 
 ### 配置maven的环境变量
 
-1. 配置MAVEN_HOME
+1. 配置MAVEN_HOME 为 maven的安装路径
 2. 在path中配置添加%MAVEN_HOME%\bin;
 
