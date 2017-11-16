@@ -45,6 +45,32 @@ This is to describe how to use maven tool!
 <localRepository>本地仓库路径</localRepository>
 ```
 
+### maven标准目录结构
+
+使用maven创建的工程我们称它为maven工程，maven工程具有一定的目录规范，如下：
+
+src/main/java —— 存放项目的.java文件
+src/main/resources —— 存放项目资源文件，如spring, hibernate配置文件
+src/test/java —— 存放所有单元测试.java文件，如JUnit测试类
+src/test/resources —— 测试资源文件
+target —— 项目输出位置，编译后的class文件会输出到此目录
+pom.xml——maven项目核心配置文件
+
+Project
+  |-src
+  |   |-main
+  |   |  |-java        —— 存放项目的.java文件
+  |   |  |-resources   —— 存放项目资源文件，如spring, hibernate配置文件
+         |-webapp     —— webapp目录是web工程的主目录
+            |-WEB-INF
+              |-web.xml
+  |   |-test
+  |      |-java        ——存放所有测试.java文件，如JUnit测试类
+  |      |-resources   —— 测试资源文件
+  |-target             —— 目标文件输出位置例如.class、.jar、.war文件
+  |-pom.xml           ——maven项目核心配置文件
+
+
 
 
 
