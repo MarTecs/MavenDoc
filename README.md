@@ -49,12 +49,12 @@ This is to describe how to use maven tool!
 
 使用maven创建的工程我们称它为maven工程，maven工程具有一定的目录规范，如下：
 
-src/main/java —— 存放项目的.java文件
-src/main/resources —— 存放项目资源文件，如spring, hibernate配置文件
-src/test/java —— 存放所有单元测试.java文件，如JUnit测试类
-src/test/resources —— 测试资源文件
-target —— 项目输出位置，编译后的class文件会输出到此目录
-pom.xml——maven项目核心配置文件
+src/main/java —— 存放项目的.java文件 <br/>
+src/main/resources —— 存放项目资源文件，如spring, hibernate配置文件<br/>
+src/test/java —— 存放所有单元测试.java文件，如JUnit测试类<br/>
+src/test/resources —— 测试资源文件<br/>
+target —— 项目输出位置，编译后的class文件会输出到此目录<br/>
+pom.xml——maven项目核心配置文件<br/>
 
 ![](http://on3w7gc9m.bkt.clouddn.com/QQ%E5%9B%BE%E7%89%8720171116113335.png)
 
