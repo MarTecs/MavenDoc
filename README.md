@@ -38,5 +38,14 @@ This is to describe how to use maven tool!
 > 命令行下键入 mvn -v 
 如果打印出 java的版本以及 maven的版本，则说明安装成功！
 
+### 配置本地仓库
+> 打开maven安装目录下的conf中的settings.xml文件,并且配置如下
+
+```XML
+<localRepository><strong>本地仓库路径</strong></localRepository>
+```
+
+
+
 
 
