@@ -42,7 +42,7 @@ This is to describe how to use maven tool!
 > 打开maven安装目录下的conf中的settings.xml文件,并且配置如下
 
 ```XML
-<localRepository><strong>本地仓库路径</strong></localRepository>
+<localRepository>本地仓库路径</localRepository>
 ```
 
 
