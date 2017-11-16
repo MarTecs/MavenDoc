@@ -58,7 +58,7 @@ pom.xml——maven项目核心配置文件
 
 Project
   -src
-  --main
+  |   |  -main
   |   |  |-java        —— 存放项目的.java文件
   |   |  |-resources   —— 存放项目资源文件，如spring, hibernate配置文件
          |-webapp     —— webapp目录是web工程的主目录
